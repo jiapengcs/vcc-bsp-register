@@ -41,7 +41,7 @@ fi
 # run new instance
 cd $TARGET_PATH
 echo "Running new instance..."
-nohup java -jar *.jar --spring.profiles.active=register-2 > logs.txt & echo $! > pid.txt
+nohup java -jar *.jar --spring.profiles.active=register-3 > logs.txt & echo $! > pid.txt
 echo "appending logs to logs.txt, and write pid to pid.txt..."
 sleep 1
 

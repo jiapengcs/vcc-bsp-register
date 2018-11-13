@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # app name, must be modified!(used for directory name, so it cannot contains special symbols)
-APP_NAME=vcc-bsp-register-1
+APP_NAME=vcc-bsp-register
 ARTIFACTS_NAME=artifacts.tar.gz
 BASE_PATH=~/deploy/$APP_NAME
 TARGET_PATH=$BASE_PATH/target
